@@ -1,0 +1,370 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+	font-family: roboto;
+}
+
+body{
+	overflow-x: hidden;
+
+}
+
+
+.container{padding: 2em 15em;}
+/*this is the navigation section*/
+#navigation{display: flex;
+		justify-content: space-between;
+		background-color: white;
+		box-shadow: 0px 10px 25px #888888;
+		position: fixed;
+		min-width: 77em;
+		top: 0em;
+		z-index: 2;}
+section img{width: 3em;
+			}
+section>div>a{padding: 0.4em 0.7em;
+				text-decoration: none;
+				color: grey;
+				font-family: 'roboto', serif;
+				font-weight: bolder;
+				font-size: 0.9em;
+				margin: 0.5em;
+
+				}
+	#home{color: orange;
+			}
+
+					 /*this is name section*/
+#name{display: flex;
+		justify-content: space-between;
+		padding: 2em 18em;
+		margin-top: 15em;}
+#name img{position: relative;
+			top: -5em;
+			width: 30em;
+			z-index: -1;}
+#name h1{font-size: 3em;
+		color: orange;
+		}
+#name>div>p+p{max-width: 2em;
+				background-color: orange;
+				padding: 0.4em 2em;
+				border-radius: 0.4em;
+				color: white;}
+		/*this is about me section*/
+#aboutme{background-color: #f0f0f0;
+		display: flex;
+		justify-content: space-between;
+		max-height: 37em;
+		min-width: em}
+#aboutme #image{background-color: orange;
+				padding: 4em;
+				height: 20em;}
+#aboutme #words{padding-left: 3em;
+				margin-left: 7em;}
+section+center{padding-top: 1em;
+				font-size: 2em;
+				color: grey;
+				font-weight: bolder;
+			}
+#me{padding-top: 1em;
+	color: grey;
+	font-weight: bolder;
+	background-color: #f0f0f0;}
+section>center>#me{background-color: #f0f0f0;}
+#aboutme img{position: relative;
+			top: -25em;
+			left: 3em;
+			width: 23em;
+			
+			}
+
+table td{padding-top: 0.9em;
+			padding-right: 3em;}
+#aboutme p{padding: 0.5em 1.3em;
+				margin: 2em;
+				background-color: orange;
+				border-radius: 0.5em;}
+#aboutme p+p{padding: 0.5em 1.6em;
+				margin: 2em;
+				background-color: white;
+				border: solid orange;}
+#button{display: flex;}
+#aboutme i{font-size: 1em;
+			background-color: white;
+			color: orange;
+			padding: 0.6em;
+			border-radius: 3em;
+			}
+
+			/*this is service section*/
+
+#service{display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		padding-left: 16em;
+		}
+#service div{max-width: 16em;
+			background-color: #f0f0f0;
+			text-align: center;
+			padding: 1.4em;
+			border-radius: 0.3em;
+			margin: 0.7em;
+			
+			
+			}
+#service div i{font-size: 2.5em;
+			/*background-color: white;*/
+			color: orange;
+			padding: 0.6em;
+			/*border-radius: 3em;*/
+			
+			}
+#service div #desktop{font-size: 1em;
+			background-color: orange;
+			color: white;
+			padding: 0.6em;
+			border-radius: 3em;
+			font-weight: bold;
+			}
+		/*this is testimonial section*/
+
+#testimonial div{max-width: 16em;
+			background-color: #f0f0f0;
+			text-align: center;
+			padding: 2em;
+			border-radius: 0.3em;
+			margin: 1em;
+			margin-left: 25em;}
+#testimonial{background-color: #f6f6f6;
+		}
+#testimonial p{font-size: 2em;
+				color: grey;
+				font-weight: bolder;
+				margin-left: 15em;}
+		/*this is latest project section*/
+#latestproject{display: flex;
+				justify-content: space-between;
+				padding-left: 15em;}
+#latestproject img{width: 37em;
+					}
+
+#latestproject>div+div>img{width: 25em;
+				max-height: 10.5em;
+				padding-left: 2em;}
+				/*this is myblog section*/
+#myblog{display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		}
+#myblog{background-color: #f0f0f0;}
+#myblog img{width: 16em;
+		}
+#myblog div{background-color: white;
+			padding: 1em;
+
+			text-align: center;
+			margin: 0.8em;
+			border-radius: 1.2em;
+			margin-top: 3em;
+			width: 20em;
+				}
+#myblog button{margin-top: 2em;
+				padding: 0.7em 2.5em;
+				background: orange;
+				color: white;
+				border-radius: 2.5em;}
+
+				/*this is contact me section*/
+					
+
+#service div i:hover{padding: 0.5em;
+				background-color: orange;
+				color: white;
+				font-size: 2em;
+				border-radius: 3em;}
+#contactme{display: flex;
+			padding: 2em 20em;
+			justify-content: space-between;
+			}
+#contactme i{padding: 0.7em;
+			background-color: orange;
+			color: white;
+			border-radius: 5em;
+			}
+#contactme input{padding: 0.7em 7em;
+				margin: 0em 1em;
+				border: solid orange;}
+#contactme input:focus{padding: 0.8em 7.2em;
+						border-radius: 2em;
+						box-shadow: 0px 0px 10px orange;}
+#contactme>div>div{margin-bottom: 3em;}
+#comment{position: relative;
+		top: 1em;
+		width: 42em;
+		 height: 10em;
+		border: solid orange;}
+#submit{position: relative;
+		top: 2em;
+		background-color: orange;
+		color: white;
+		border-radius: 2em;
+		
+		}
+			/*this is footer section*/
+footer{background-color: #f0f0f0;
+		display: flex;
+		justify-content: space-between;
+		min-width: 100em;}
+footer>div>i{margin-right: 2em;
+			}
+footer>div>i:hover{background-color: orange;
+					color: white;
+					font-size: 1.5em;
+					padding: 0.3em;
+					border-radius: 3em;}
+footer>div{font-size: 1.5em;}
+#footer{font-size: 1.7em;}
+		/*this is hover styling*/
+
+
+@media only screen and(max-width: 360px), (max-width: 414px), (max-width: 820px) {
+	*{
+	 
+	font-family: roboto;
+	font-size: 1em;
+}
+	body{
+		overflow-x: hidden;
+		box-sizing: border-box;}
+	
+	#navigation{position: fixed;
+				overflow-y: hidden;
+				min-width: 24em;
+				min-height: 3em;}
+
+	section>div>a{display: none;}
+	section img{width: 3.5em;
+				position: fixed;
+				left: 2em;
+
+
+			}
+	#name{flex-direction: column;
+			justify-content: space-between;
+			width: 17.8em;
+
+			}
+	#name img{	
+				top: 3em;
+				left: -16.5em;
+				width: 23em;
+				
+				}
+	.text{	width: 10em;
+			margin: auto;
+			text-align: center;
+			margin-left: -10em;
+			
+			}
+			
+	#name>div>p+p{position: relative;
+					top: 28.5em;
+					left: 2em;}
+	#aboutme{
+				flex-direction: column;
+				min-width: 24.5em;
+				min-height: 80em;
+	}
+	#aboutme #image{position: relative;
+					left: -13.1em;
+					width: 15em;
+					height: 30em;}
+	#aboutme img{position: relative;
+				width: 24em;
+				left: -11.05em;
+				top: -35em;}
+	section+center{position: relative;
+					left: 0em;
+					}
+	#words{position: relative;
+			top: -30em;
+			left: -23.5em;
+			width: 24em;
+			}
+	#service{grid-template-columns: repeat(1, 1fr);
+				position: relative;
+			width: 23.6em;
+			
+			}
+	#service div{	position: relative;
+					left: -15em;
+					min-width: 20em;
+					min-height: 20em;
+					}
+	#service>div>p{;}
+	#testimonial{width: 24em;}
+	#testimonial div{position: relative;
+					left: -37.5em;
+					min-width: 17em;
+					min-height: 10em;
+					font-size: ;
+					}
+
+	#testimonial p{position: relative;
+					left: -19em;
+					}
+	#latestproject{flex-direction: column-reverse;
+					width: 23.9em;}
+	#latestproject>div+div>img{	position: relative;
+								width: 11.5em;
+								height: 5em;
+								padding: 0px;
+								left: -13.5em;}
+	#latestproject img{width: 23em;
+						position: relative;
+						left: -13.5em;
+						padding-top: 0.7em;}
+	#myblog{position: relative;
+			left: -16.3em;
+			width: 40em;
+			height: 75em;
+			display: flex;
+			flex-direction: column;
+			}
+	#myblog div{width: 20em;
+				min-height: 19em;
+				position: relative;
+				left: 2.5em;}
+	
+	#contactme{display: flex;
+				flex-direction: column-reverse;
+				position: relative;
+				left: -19em;
+				}
+	#contactme input{	position: relative;
+						left: 1em;
+						width: 8em;
+						margin-top: 0.8em;
+						}
+	#contactme>div>div{margin-top: 3em;
+						width: 24em;
+						padding-bottom: -2em;
+						}
+	
+			
+	footer{position: relative;
+			left: -12em;
+			min-width: 20em;}
+	footer p{display: none;}
+	#footer{position: relative;
+			left: -12em;
+			font-size: 1.2em;}
+	#aboutme{width: 2em;}
+	
+	#button{position: relative;
+		width: 30em;
+		left: -3em;
+	}
+
+	}
+		
+
